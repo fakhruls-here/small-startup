@@ -1,0 +1,11 @@
+Design System = is a hole website repetetive code as 
+Rem is a Relative Unit
+Px is a Absolute Unit
+Defaul browser font size 16px
+box-sizing: border-box; = when you won't use (screen size 1000px + padding 20px + margin 30px == 1050px) but when you use (box-sizing: border-box; == 1000px)
+
+website layout thinking buildin idea
+    1. at first look at the hole website  
+    2. devide the hole website section wise like(fav-icon, Navbar, section1, section2, section3... , footer)
+        1. title name hobe "website er name a" but shathe add hobe prasent kon page a achi like 'home page thule "Name - Home"'
+        2. every section build usign BEM(Block, Elements, Modifeirs) methods
