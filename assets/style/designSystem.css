@@ -206,11 +206,17 @@
     .container{
         max-width: 970px;
     }
+    .common-title{
+        font-size: var(--heading-2);
+    }
 }
 
 @media (max-width: 1024px){
     .container{
         max-width: 740px;
+    }
+    .common-title{
+        font-size: var(--heading-4);
     }
 }
 
@@ -220,6 +226,12 @@
     }
     .grid{
         grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    .dark-btn,
+    .white-btn{
+        font-size: var(--heading-6);
+        padding: 8px 25px;
     }
     .navbar__menu{
         position: absolute;
